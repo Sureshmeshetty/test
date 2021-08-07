@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7605" started-at="2021-07-29T23:24:32 IST" finished-at="2021-07-29T23:24:39 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7605" started-at="2021-07-29T23:24:32 IST" finished-at="2021-07-29T23:24:39 IST">
+      <class name="testSuite.TestSuite">
+        <test-method status="PASS" signature="stepUp()[pri:0, instance:testSuite.TestSuite@7a36aefa]" name="stepUp" is-config="true" duration-ms="3854" started-at="2021-07-29T23:24:28 IST" finished-at="2021-07-29T23:24:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stepUp -->
+        <test-method status="PASS" signature="validateProductSearchUsingJson(java.lang.String)[pri:0, instance:testSuite.TestSuite@7a36aefa]" name="validateProductSearchUsingJson" duration-ms="1962" started-at="2021-07-29T23:24:32 IST" data-provider="jsonProvider" finished-at="2021-07-29T23:24:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductSearchUsingJson -->
+        <test-method status="PASS" signature="validateProductSearchUsingJson(java.lang.String)[pri:0, instance:testSuite.TestSuite@7a36aefa]" name="validateProductSearchUsingJson" duration-ms="1761" started-at="2021-07-29T23:24:34 IST" data-provider="jsonProvider" finished-at="2021-07-29T23:24:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductSearchUsingJson -->
+        <test-method status="PASS" signature="validateProductSearchUsingJson(java.lang.String)[pri:0, instance:testSuite.TestSuite@7a36aefa]" name="validateProductSearchUsingJson" duration-ms="1228" started-at="2021-07-29T23:24:36 IST" data-provider="jsonProvider" finished-at="2021-07-29T23:24:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductSearchUsingJson -->
+        <test-method status="PASS" signature="validateProductSearchUsingJson(java.lang.String)[pri:0, instance:testSuite.TestSuite@7a36aefa]" name="validateProductSearchUsingJson" duration-ms="1376" started-at="2021-07-29T23:24:38 IST" data-provider="jsonProvider" finished-at="2021-07-29T23:24:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductSearchUsingJson -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSuite.TestSuite@7a36aefa]" name="tearDown" is-config="true" duration-ms="739" started-at="2021-07-29T23:24:40 IST" finished-at="2021-07-29T23:24:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuite.TestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
